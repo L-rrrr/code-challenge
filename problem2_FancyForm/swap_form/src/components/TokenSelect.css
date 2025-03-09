@@ -43,8 +43,8 @@
 }
 
 .token-search-bar .search-input {
-  padding: 5px 10px; /* Set padding inside the input */
-  box-sizing: border-box; /* Include padding/border in the element's height */
+  padding: 5px 10px; 
+  box-sizing: border-box; 
   color: white;
   background-color: #424242;
   height: 40px;

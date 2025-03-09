@@ -18,8 +18,8 @@ const SwapForm = () => {
       const rate = tokenPrices[fromToken] / tokenPrices[toToken];
       const converted = (amount * rate).toFixed(2);
       setConvertedAmount(converted);
-      setFromTokenValue((amount * tokenPrices[fromToken]).toFixed(2)); // Price of entered sell amount in USD
-      setToTokenValue((converted * tokenPrices[toToken]).toFixed(2)); // Price of received amount in USD
+      setFromTokenValue((amount * tokenPrices[fromToken]).toFixed(2)); // Price of entered sell amount
+      setToTokenValue((converted * tokenPrices[toToken]).toFixed(2)); // Price of received amount 
     } else {
       setConvertedAmount(0);
       setFromTokenValue(0);
