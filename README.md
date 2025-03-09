@@ -10,3 +10,11 @@
   - real-time display of the value for the amount of currency selected
   - the input box for amount allows only valid inputs, which are numbers and decimal point
   - the image for all currency will appear besides the name of the currency
+
+
+How it looks like: 
+
+
+
+![image](https://github.com/user-attachments/assets/0e22c985-185c-47d7-8dcc-0dcd16b6c2c8)
+
