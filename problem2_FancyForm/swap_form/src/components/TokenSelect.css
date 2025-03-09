@@ -1,0 +1,85 @@
+.token-select-container {
+  position: relative;
+  width: 200px;
+}
+
+.token-select-display {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  height: 60px;
+  width: 260px;
+}
+
+.token-select-display img {
+  margin-right: 15px;
+}
+
+.token-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 130%;
+  background-color: #424242;
+  border: none;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  flex-direction: column;
+}
+
+.token-search-bar {
+  display: flex;
+  padding: 5px 10px;
+  background-color: #424242;
+  color: white;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.token-search-bar .search-input {
+  padding: 5px 10px; /* Set padding inside the input */
+  box-sizing: border-box; /* Include padding/border in the element's height */
+  color: white;
+  background-color: #424242;
+  height: 40px;
+}
+
+.token-option {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  cursor: pointer;
+  color: white;
+  margin-top: 10px;
+}
+
+.token-option img {
+  margin-right: 10px;
+}
+
+.no-results {
+  justify-content: left;
+  padding: 1px 15px;
+  color: white;
+  margin-bottom: 8px;
+
+}
+
+/* Hide spinner for input[type="number"] */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
