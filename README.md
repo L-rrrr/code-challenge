@@ -12,7 +12,7 @@
   - the image for all currency will appear besides the name of the currency
 
 
-How it looks like: 
+- Visual display of the Swap Form: 
 
 
 
